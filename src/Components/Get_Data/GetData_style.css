@@ -12,7 +12,7 @@
 }
 
 .claim_btn {
-    background-color: transparent;
+    background-color: red !important;
     padding: 10px 15px;
     color: white;
     text-align: center;
@@ -29,7 +29,7 @@
 }
 
 .claim_btn:hover {
-    background-color: transparent !important;
+    background-color: red !important;
     border: 2px solid rgb(5, 55, 5);
     font-weight: bold;
 

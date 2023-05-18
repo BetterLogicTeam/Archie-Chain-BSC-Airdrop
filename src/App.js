@@ -1,14 +1,14 @@
 
 import './App.css';
-import Get_Data from './Components/Get_Data/Get_Data';
+// import Get_Data from './Components/Get_Data/Get_Data';
 import Header from './Components/Header/Header';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Uploadfile from './Components/UploadFile/Uploadfile';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import Get_Data_Multisend from './Components/Get_Data2/Get_Data_Multisend';
-import Get_Data3 from './Components/Get_Data3/Get_Data_Multisend3';
+import Get_Data_Multisend from './Components/Get_Data2/Get_Data_Multisend'; //using this for warc
+import Get_Data from './Components/Get_Data3/Get_Data_Multisend3'; //using for Archie token
 
 function App() {
   return (
@@ -29,17 +29,13 @@ function App() {
             <Get_Data_Multisend />
 
         </Tab>
-          {/* <Tab eventKey="Direct" title="Direct">
+
+         <Tab eventKey="Direct" title="Archie Token Airdrop">
             <Get_Data />
 
-          </Tab> */}
-        
-          {/* <Tab eventKey="CIC" title="ARC Coin Airdrop">
-            <Get_Data3 />
-
-          </Tab> */}
-
+        </Tab>
         </Tabs>
+
       </div>
 
 
