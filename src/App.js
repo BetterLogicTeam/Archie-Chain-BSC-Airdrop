@@ -20,17 +20,17 @@ function App() {
       {/* <Get_Data/> */}
       <div className='container'>
         <Tabs
-          defaultActiveKey="Approve"
+          defaultActiveKey="Direct"
           id="fill-tab-example"
           className="mb-3"
           fill
         >
-            <Tab eventKey="Approve" title="WrappedARC Token Airdrop">
+            {/* <Tab eventKey="Approve" title="WrappedARC Token Airdrop">
             <Get_Data_Multisend />
 
-        </Tab>
+        </Tab> */}
 
-         <Tab eventKey="Direct" title="Archie Token Airdrop">
+         <Tab eventKey="Direct" title="GGH Token Airdrop">
             <Get_Data />
 
         </Tab>
