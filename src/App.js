@@ -30,7 +30,7 @@ function App() {
 
         </Tab> */}
 
-         <Tab eventKey="Direct" title="GGH Token Airdrop">
+         <Tab eventKey="Direct" title="Realspad Token Airdrop">
             <Get_Data />
 
         </Tab>
