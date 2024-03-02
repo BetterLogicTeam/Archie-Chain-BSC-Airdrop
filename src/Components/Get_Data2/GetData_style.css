@@ -14,14 +14,14 @@
 .claim_btn {
     background-color: #1199FA;
     padding: 10px 15px;
-    color: white;
+    color: #fff;
     text-align: center;
     margin-left: 10px;
     border: none;
     outline: none;
     border-radius: 6px;
     font-size: 18px;
-    
+
 }
 
 .claim_btn:hover {

@@ -70,9 +70,9 @@ export default function Get_Data() {
                 let amounts2=(amounts1).toLocaleString('fullwide', {useGrouping:false});
                 AddresArray = [...AddresArray, items.Address]
                 AmountArray = [...AmountArray, amounts2]
-             
+
             });
-      
+
             let sum1=web3.utils.toWei((sum).toString())
             setTotalApprovedAmount(sum1)
             setaddressesValue(AddresArray)
@@ -88,7 +88,7 @@ export default function Get_Data() {
 
 
 
-   
+
 
 
     const multisendTokenwithApprove = async () => {
@@ -177,16 +177,16 @@ export default function Get_Data() {
 
                     </div>
 
-                
+
                 </div>
-            
-            
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
+
             </div>
 
 

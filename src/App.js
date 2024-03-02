@@ -1,42 +1,24 @@
 
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 // import Get_Data from './Components/Get_Data/Get_Data';
 import Header from './Components/Header/Header';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Uploadfile from './Components/UploadFile/Uploadfile';
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
-import Get_Data_Multisend from './Components/Get_Data2/Get_Data_Multisend'; //using this for warc
-import Get_Data from './Components/Get_Data3/Get_Data_Multisend3'; //using for Archie token
+import Home from './Components/Home';
+import AirDropList from './Components/AirDropList/AirDropList';
 
 function App() {
   return (
     <div className="App">
       <ToastContainer />
       <Header />
-      {/* <Uploadfile/> */}
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/AirDropList' element={<AirDropList />} />
 
-      {/* <Get_Data/> */}
-      <div className='container'>
-        <Tabs
-          defaultActiveKey="Direct"
-          id="fill-tab-example"
-          className="mb-3"
-          fill
-        >
-            {/* <Tab eventKey="Approve" title="WrappedARC Token Airdrop">
-            <Get_Data_Multisend />
 
-        </Tab> */}
-
-         <Tab eventKey="Direct" title="Realspad Token Airdrop">
-            <Get_Data />
-
-        </Tab>
-        </Tabs>
-
-      </div>
+      </Routes>
 
 
     </div>
