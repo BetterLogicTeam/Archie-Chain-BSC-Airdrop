@@ -41,7 +41,9 @@ function Header() {
       <div className="container">
         <div className="d-flex justify-content-between align-items-center  ">
           <div className="logo">
-            <img src={logo} style={{ width: "100px" }} alt="" />
+            <Link to="/" className="text-decoration-none">
+              <img src={logo} style={{ width: "100px" }} alt="" />
+            </Link>
           </div>
           <div className="logo">
             {owneraddress?.toLowerCase() == BtTxt?.toLowerCase() && (

@@ -11,7 +11,7 @@ export default function AirDropList() {
           "https://tipcoin.betterlogics.tech/getAllAddress"
         );
         if (res.data.success) {
-          console.log("Res", res.data);
+          console.log("getAllAddress", res.data);
           setUserList(res.data.data);
         }
       } catch (error) {
